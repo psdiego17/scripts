@@ -1,0 +1,12 @@
+//console.log(typeof(nomeVariavel)) //typeof para saber o tipo de uma variavel
+
+Manipular Array
+forEach() //Itera um array;
+push() //Adiciona item no final do array;
+unshift() Adiciona item no inicio do array;
+pop() //Remove item no final do array;
+shift() //Remove item no inicio do array;
+indexOf() //Retorna o índice de um valor;
+splice() //Remove ou substitui um itempelo índice;
+slice() //Retorna uma parte de um array existente; 
+promt() //Capturar entrada do usuário
