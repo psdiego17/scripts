@@ -10,3 +10,16 @@ indexOf() //Retorna o índice de um valor;
 splice() //Remove ou substitui um itempelo índice;
 slice() //Retorna uma parte de um array existente; 
 promt() //Capturar entrada do usuário
+Array.from(nomeList) //Transforma a list em array
+
+Manipular Number
+toFixed(2) //Retorna a quantidade de números após a casa decimal, no ex vai retornar duas
+
+
+Design Patterns mais utilizados
+
+-Factory
+-Singleton
+-Decorator
+-Observer
+-Module
