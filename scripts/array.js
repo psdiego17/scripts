@@ -26,3 +26,32 @@ console.log(equipamentos.splice(0))
 //--------------------------------------------------------------
 let receberArray = arrayMisto2;
 console.log(receberArray);
+
+//--------------------------------------------------------------
+
+//nomeArray.length -1 //Pegar último elemento do array
+
+//O map é útilizado paramodificação de array
+const vogais = ["a", "e", "i", "o", "u"]
+
+const variavel = vogais.map(function (vogal){
+ if(vogal === 'i'){
+  return (vogal = 'I')	
+ }else{
+  return vogal
+ }
+})
+
+console.log(variavel)
+
+//O filter é utilizado para fazer um filtro no array
+const numeros = [1, 2, 7, 15, 17, 22]
+
+const recebeNumeros = numeros.filter(function(numeroAltos){
+ return numeroAltos > 10
+})
+
+console.log(recebeNumeros)
+
+
+//O reduce faz o retorno de uma array em um único elemento

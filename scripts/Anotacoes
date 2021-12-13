@@ -23,3 +23,25 @@ Design Patterns mais utilizados
 -Decorator
 -Observer
 -Module
+
+
+<!--
+<head>
+    <script src="caminho/arquivo.js" defer</script> //O defer é usado para fazer com a página só carregue o arquivo .js depois de todo .html .css
+</head>
+-->
+
+
+- Query Selector //Pegar dados do HTML usando classe e ids classe
+
+//JSON - JavaScript Object Notation
+const dog = {
+ nome = 'Totó', 
+ raca = 'vira lata',
+ idade = 5		
+}
+
+const ConverterObjetoParaJson = JSON.stringify(dog) //Convertendo um Objeto em um JSON
+
+const ConverterJsonParaObjeto = JSON.parseConverterObjetoParaJson   //Convertendo um JSON em um Objeto 
+
