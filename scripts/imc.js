@@ -9,5 +9,5 @@ solicitarDados()
 
 var calcularImc = (a, b) => { return imc = a / (b * b)}
 
-alert(`Prezado(a) ${nome} seu IMC é de: `+calcularImc(peso, altura))
+alert(`Prezado(a) ${nome} seu IMC é de: `+calcularImc(peso, altura).toFixed(2))
 console.log("IMC: "+calcularImc(peso, altura))

@@ -11,6 +11,7 @@ splice() //Remove ou substitui um itempelo índice;
 slice() //Retorna uma parte de um array existente; 
 promt() //Capturar entrada do usuário
 Array.from(nomeList) //Transforma a list em array
+reduce() //Executa uma função reducer (fornecida por você) para cada elemento do array, resultando num único valor de retorno.
 
 Manipular Number
 toFixed(2) //Retorna a quantidade de números após a casa decimal, no ex vai retornar duas
@@ -44,4 +45,30 @@ const dog = {
 const ConverterObjetoParaJson = JSON.stringify(dog) //Convertendo um Objeto em um JSON
 
 const ConverterJsonParaObjeto = JSON.parseConverterObjetoParaJson   //Convertendo um JSON em um Objeto 
+
+
+DOM - Documento Object Model - Padrão de como acessar e modificar os elementos HTML de uma página.
+
+BOM - Browser Object Model - (O BOM está acima do DOM) Tudo o que está dentro de um objeto Window:
+document
+history
+location
+screen
+navigator
+
+document.createElement(passaElemento) -//Criar um novo elemento HTML
+
+document.removeChild(passaElemento) - //Remove um elemento 
+
+document.appendChild(passaElemento) - //Adiciona um elemento 
+
+document.replaceChild(new, old) - //Substitui um elemento 
+
+
+//Rest Operator
+
+function sum(...args){
+return args.reduce((acc, value) => acc + value, 0)
+}
+
 

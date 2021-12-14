@@ -31,7 +31,7 @@ console.log(receberArray);
 
 //nomeArray.length -1 //Pegar último elemento do array
 
-//O map é útilizado paramodificação de array
+//O map é útilizado para modificação de array
 const vogais = ["a", "e", "i", "o", "u"]
 
 const variavel = vogais.map(function (vogal){
